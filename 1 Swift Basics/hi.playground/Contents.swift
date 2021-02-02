@@ -1,10 +1,9 @@
-import Foundation
+import UIKit
 
 //Hello Swift -- also this is how a comment looks like
 print("Hello Swift")
 
 // Variables
-
 //vars are mutable, can be changed
 var one = 5
 one = 7
@@ -12,9 +11,7 @@ one = 7
 //lets are immuatable, cannot be changed
 let two = 8
 //two = 5 -- can't do this, let variables can be defined only once
-
 //Type Declaration
-
 var three: String = "Python"
 let four: Int = 42
 var five: String? = nil
@@ -22,7 +19,6 @@ var six: [Int] = [1, 3, 5]
 var seven: Bool = true
 
 //Type Casting -- will cover next week
-
 //Strings -- value types, not reference types like in Java
 var name: String = "Craig Federighi"
 var age: Int = 52
@@ -65,7 +61,6 @@ switch item {
 }
 
 //Loops
-
 //For in loops
 for i in 0...5{
     print(i)
@@ -89,15 +84,15 @@ while x[x.index(x.startIndex, offsetBy: offset)] != "i" {
     offset += 1
 }
 
-let count: Int = 10
+var count: Int = 10
 repeat {
     
     print(count)
+    count -= 1
 
 } while(count > 0)
 
 //functions
-
 //In swift, by default we have to name our parameters, also we provide the return type after the function signature like so "-> Int" to indicate we're returning an Int
 func subtract(second: Int, first: Int) -> Int {
     
@@ -105,7 +100,6 @@ func subtract(second: Int, first: Int) -> Int {
     
 }
 subtract(second: 6, first: 4 ) // 2
-
 //However, it gives us the option not to like so...
 func add(_ x: Int,_ y: Int) -> Int{
     
@@ -113,7 +107,6 @@ func add(_ x: Int,_ y: Int) -> Int{
     
 }
 add(5, 6) // 11
-
 //we also can have internal and external names
 func count(to num: Int){
     for i in 0...num {
@@ -127,11 +120,4 @@ count(to: 7)
 /*
  In case you were wondering, we also have access modifiers in Swift. We have open, public, internal, fileprivate, private(most restrictive)
  */
-
-
-
-
-
-
-
 
