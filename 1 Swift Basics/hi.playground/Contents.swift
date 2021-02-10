@@ -14,9 +14,12 @@ let two = 8
 //Type Declaration
 var three: String = "Python"
 let four: Int = 42
+
 var five: String? = nil
+
 var six: [Int] = [1, 3, 5]
 var seven: Bool = true
+
 
 //Type Casting -- will cover next week
 //Strings -- value types, not reference types like in Java
