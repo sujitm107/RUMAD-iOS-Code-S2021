@@ -63,10 +63,26 @@
                                     <segment title="20%"/>
                                     <segment title="25%"/>
                                 </segments>
+                                <connections>
+                                    <action selector="didTapTipSegmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="c0U-f5-TBk"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gy-cz-5b1">
-                                <rect key="frame" x="182" y="443.33333333333331" width="64" height="30"/>
-                                <state key="normal" title="Calculate"/>
+                                <rect key="frame" x="159" y="443.33333333333331" width="110" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <inset key="contentEdgeInsets" minX="12" minY="12" maxX="12" maxY="12"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapCalculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HfS-J9-B9X"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -86,6 +102,12 @@
                             <constraint firstItem="6eU-bS-Ic6" firstAttribute="centerY" secondItem="Nsr-bp-LUC" secondAttribute="centerY" id="zth-j8-Fmf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="billAmountTextField" destination="NI1-sf-1EE" id="dgz-Z9-UPI"/>
+                        <outlet property="tipAmountLabel" destination="bSX-PA-WhF" id="2bO-WV-Kl9"/>
+                        <outlet property="tipSegmentedControl" destination="iC0-Sg-XGA" id="s9b-03-ATe"/>
+                        <outlet property="totalAmountLabel" destination="dju-iO-ubu" id="abo-NI-p0b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
