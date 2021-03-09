@@ -7,35 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81278B4625F55B5B00280162 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81278B4525F55B5B00280162 /* Contact.swift */; };
-		81278B4925F562DC00280162 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81278B4825F562DC00280162 /* ContactCell.swift */; };
-		81278B4D25F599E500280162 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81278B4C25F599E500280162 /* AddContactViewController.swift */; };
-		81278B5125F5AF5B00280162 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81278B5025F5AF5B00280162 /* ContactDetailViewController.swift */; };
-		81AEDD9525EB20E9002D7701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AEDD9425EB20E9002D7701 /* AppDelegate.swift */; };
-		81AEDD9725EB20E9002D7701 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AEDD9625EB20E9002D7701 /* SceneDelegate.swift */; };
-		81AEDD9925EB20E9002D7701 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AEDD9825EB20E9002D7701 /* ViewController.swift */; };
-		81AEDD9C25EB20E9002D7701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AEDD9A25EB20E9002D7701 /* Main.storyboard */; };
-		81AEDD9E25EB20EB002D7701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81AEDD9D25EB20EB002D7701 /* Assets.xcassets */; };
-		81AEDDA125EB20EB002D7701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AEDD9F25EB20EB002D7701 /* LaunchScreen.storyboard */; };
+		81798F1A25EF1D1000E89FE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81798F1925EF1D1000E89FE9 /* AppDelegate.swift */; };
+		81798F1C25EF1D1000E89FE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81798F1B25EF1D1000E89FE9 /* SceneDelegate.swift */; };
+		81798F2125EF1D1000E89FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81798F1F25EF1D1000E89FE9 /* Main.storyboard */; };
+		81798F2325EF1D1300E89FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81798F2225EF1D1300E89FE9 /* Assets.xcassets */; };
+		81798F2625EF1D1300E89FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81798F2425EF1D1300E89FE9 /* LaunchScreen.storyboard */; };
+		81798F3025EF1E6900E89FE9 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81798F2F25EF1E6900E89FE9 /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		81278B4525F55B5B00280162 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
-		81278B4825F562DC00280162 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
-		81278B4C25F599E500280162 /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
-		81278B5025F5AF5B00280162 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
-		81AEDD9125EB20E9002D7701 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AEDD9425EB20E9002D7701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81AEDD9625EB20E9002D7701 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		81AEDD9825EB20E9002D7701 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		81AEDD9B25EB20E9002D7701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		81AEDD9D25EB20EB002D7701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		81AEDDA025EB20EB002D7701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		81AEDDA225EB20EB002D7701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81798F1625EF1D1000E89FE9 /* RUMADContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUMADContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81798F1925EF1D1000E89FE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81798F1B25EF1D1000E89FE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81798F2025EF1D1000E89FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81798F2225EF1D1300E89FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81798F2525EF1D1300E89FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81798F2725EF1D1300E89FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81798F2F25EF1E6900E89FE9 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		81AEDD8E25EB20E9002D7701 /* Frameworks */ = {
+		81798F1325EF1D1000E89FE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,75 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		81AEDD8825EB20E9002D7701 = {
+		81798F0D25EF1D1000E89FE9 = {
 			isa = PBXGroup;
 			children = (
-				81AEDD9325EB20E9002D7701 /* ContactsApp */,
-				81AEDD9225EB20E9002D7701 /* Products */,
+				81798F1825EF1D1000E89FE9 /* RUMADContactsApp */,
+				81798F1725EF1D1000E89FE9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		81AEDD9225EB20E9002D7701 /* Products */ = {
+		81798F1725EF1D1000E89FE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81AEDD9125EB20E9002D7701 /* ContactsApp.app */,
+				81798F1625EF1D1000E89FE9 /* RUMADContactsApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		81AEDD9325EB20E9002D7701 /* ContactsApp */ = {
+		81798F1825EF1D1000E89FE9 /* RUMADContactsApp */ = {
 			isa = PBXGroup;
 			children = (
-				81AEDD9425EB20E9002D7701 /* AppDelegate.swift */,
-				81AEDD9625EB20E9002D7701 /* SceneDelegate.swift */,
-				81AEDD9825EB20E9002D7701 /* ViewController.swift */,
-				81278B4C25F599E500280162 /* AddContactViewController.swift */,
-				81278B5025F5AF5B00280162 /* ContactDetailViewController.swift */,
-				81278B4525F55B5B00280162 /* Contact.swift */,
-				81278B4825F562DC00280162 /* ContactCell.swift */,
-				81AEDD9A25EB20E9002D7701 /* Main.storyboard */,
-				81AEDD9D25EB20EB002D7701 /* Assets.xcassets */,
-				81AEDD9F25EB20EB002D7701 /* LaunchScreen.storyboard */,
-				81AEDDA225EB20EB002D7701 /* Info.plist */,
+				81798F1925EF1D1000E89FE9 /* AppDelegate.swift */,
+				81798F1B25EF1D1000E89FE9 /* SceneDelegate.swift */,
+				81798F1F25EF1D1000E89FE9 /* Main.storyboard */,
+				81798F2F25EF1E6900E89FE9 /* ContactsViewController.swift */,
+				81798F2225EF1D1300E89FE9 /* Assets.xcassets */,
+				81798F2425EF1D1300E89FE9 /* LaunchScreen.storyboard */,
+				81798F2725EF1D1300E89FE9 /* Info.plist */,
 			);
-			path = ContactsApp;
+			path = RUMADContactsApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81AEDD9025EB20E9002D7701 /* ContactsApp */ = {
+		81798F1525EF1D1000E89FE9 /* RUMADContactsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81AEDDA525EB20EB002D7701 /* Build configuration list for PBXNativeTarget "ContactsApp" */;
+			buildConfigurationList = 81798F2A25EF1D1300E89FE9 /* Build configuration list for PBXNativeTarget "RUMADContactsApp" */;
 			buildPhases = (
-				81AEDD8D25EB20E9002D7701 /* Sources */,
-				81AEDD8E25EB20E9002D7701 /* Frameworks */,
-				81AEDD8F25EB20E9002D7701 /* Resources */,
+				81798F1225EF1D1000E89FE9 /* Sources */,
+				81798F1325EF1D1000E89FE9 /* Frameworks */,
+				81798F1425EF1D1000E89FE9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ContactsApp;
-			productName = ContactsApp;
-			productReference = 81AEDD9125EB20E9002D7701 /* ContactsApp.app */;
+			name = RUMADContactsApp;
+			productName = RUMADContactsApp;
+			productReference = 81798F1625EF1D1000E89FE9 /* RUMADContactsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		81AEDD8925EB20E9002D7701 /* Project object */ = {
+		81798F0E25EF1D1000E89FE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					81AEDD9025EB20E9002D7701 = {
+					81798F1525EF1D1000E89FE9 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 81AEDD8C25EB20E9002D7701 /* Build configuration list for PBXProject "ContactsApp" */;
+			buildConfigurationList = 81798F1125EF1D1000E89FE9 /* Build configuration list for PBXProject "RUMADContactsApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,59 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 81AEDD8825EB20E9002D7701;
-			productRefGroup = 81AEDD9225EB20E9002D7701 /* Products */;
+			mainGroup = 81798F0D25EF1D1000E89FE9;
+			productRefGroup = 81798F1725EF1D1000E89FE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81AEDD9025EB20E9002D7701 /* ContactsApp */,
+				81798F1525EF1D1000E89FE9 /* RUMADContactsApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		81AEDD8F25EB20E9002D7701 /* Resources */ = {
+		81798F1425EF1D1000E89FE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AEDDA125EB20EB002D7701 /* LaunchScreen.storyboard in Resources */,
-				81AEDD9E25EB20EB002D7701 /* Assets.xcassets in Resources */,
-				81AEDD9C25EB20E9002D7701 /* Main.storyboard in Resources */,
+				81798F2625EF1D1300E89FE9 /* LaunchScreen.storyboard in Resources */,
+				81798F2325EF1D1300E89FE9 /* Assets.xcassets in Resources */,
+				81798F2125EF1D1000E89FE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		81AEDD8D25EB20E9002D7701 /* Sources */ = {
+		81798F1225EF1D1000E89FE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81278B4925F562DC00280162 /* ContactCell.swift in Sources */,
-				81278B4625F55B5B00280162 /* Contact.swift in Sources */,
-				81AEDD9925EB20E9002D7701 /* ViewController.swift in Sources */,
-				81278B5125F5AF5B00280162 /* ContactDetailViewController.swift in Sources */,
-				81278B4D25F599E500280162 /* AddContactViewController.swift in Sources */,
-				81AEDD9525EB20E9002D7701 /* AppDelegate.swift in Sources */,
-				81AEDD9725EB20E9002D7701 /* SceneDelegate.swift in Sources */,
+				81798F1A25EF1D1000E89FE9 /* AppDelegate.swift in Sources */,
+				81798F1C25EF1D1000E89FE9 /* SceneDelegate.swift in Sources */,
+				81798F3025EF1E6900E89FE9 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		81AEDD9A25EB20E9002D7701 /* Main.storyboard */ = {
+		81798F1F25EF1D1000E89FE9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				81AEDD9B25EB20E9002D7701 /* Base */,
+				81798F2025EF1D1000E89FE9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		81AEDD9F25EB20EB002D7701 /* LaunchScreen.storyboard */ = {
+		81798F2425EF1D1300E89FE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				81AEDDA025EB20EB002D7701 /* Base */,
+				81798F2525EF1D1300E89FE9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -181,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		81AEDDA325EB20EB002D7701 /* Debug */ = {
+		81798F2825EF1D1300E89FE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		81AEDDA425EB20EB002D7701 /* Release */ = {
+		81798F2925EF1D1300E89FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,38 +281,38 @@
 			};
 			name = Release;
 		};
-		81AEDDA625EB20EB002D7701 /* Debug */ = {
+		81798F2B25EF1D1300E89FE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7L7CNHNYM8;
-				INFOPLIST_FILE = ContactsApp/Info.plist;
+				INFOPLIST_FILE = RUMADContactsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sujitContactsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RUMADContactsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		81AEDDA725EB20EB002D7701 /* Release */ = {
+		81798F2C25EF1D1300E89FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7L7CNHNYM8;
-				INFOPLIST_FILE = ContactsApp/Info.plist;
+				INFOPLIST_FILE = RUMADContactsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sujitContactsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RUMADContactsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81AEDD8C25EB20E9002D7701 /* Build configuration list for PBXProject "ContactsApp" */ = {
+		81798F1125EF1D1000E89FE9 /* Build configuration list for PBXProject "RUMADContactsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81AEDDA325EB20EB002D7701 /* Debug */,
-				81AEDDA425EB20EB002D7701 /* Release */,
+				81798F2825EF1D1300E89FE9 /* Debug */,
+				81798F2925EF1D1300E89FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81AEDDA525EB20EB002D7701 /* Build configuration list for PBXNativeTarget "ContactsApp" */ = {
+		81798F2A25EF1D1300E89FE9 /* Build configuration list for PBXNativeTarget "RUMADContactsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81AEDDA625EB20EB002D7701 /* Debug */,
-				81AEDDA725EB20EB002D7701 /* Release */,
+				81798F2B25EF1D1300E89FE9 /* Debug */,
+				81798F2C25EF1D1300E89FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 81AEDD8925EB20E9002D7701 /* Project object */;
+	rootObject = 81798F0E25EF1D1000E89FE9 /* Project object */;
 }
