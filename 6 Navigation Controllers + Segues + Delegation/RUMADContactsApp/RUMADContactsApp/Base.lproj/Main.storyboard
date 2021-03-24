@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="g0l-6P-Xg9">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -16,13 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill.badge.plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2O3-Qy-Rfe">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill.badge.plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2O3-Qy-Rfe">
                                 <rect key="frame" x="105" y="51.5" width="202" height="200"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2O3-Qy-Rfe" secondAttribute="height" multiplier="1:1" id="CvS-nT-dtL"/>
                                     <constraint firstAttribute="height" constant="200" id="IqE-6e-uVT"/>
                                     <constraint firstAttribute="width" constant="200" id="cSN-0G-rGS"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3aW-4q-D6P" appends="YES" id="Mfi-69-FKg"/>
+                                </connections>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="xpx-Po-10a">
                                 <rect key="frame" x="20" y="300" width="374" height="132"/>
@@ -55,6 +59,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uAw-Qd-UOO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="xpx-Po-10a" firstAttribute="centerX" secondItem="pDc-0B-HN0" secondAttribute="centerX" id="FhX-BF-Xtw"/>
                             <constraint firstItem="xpx-Po-10a" firstAttribute="top" secondItem="2O3-Qy-Rfe" secondAttribute="bottom" constant="50" id="GLd-W0-ZOg"/>
@@ -72,8 +77,13 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PEh-ZK-3S9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="3aW-4q-D6P">
+                    <connections>
+                        <action selector="didTapImageView:" destination="HN1-GD-a6I" id="9dk-Px-d7r"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="100" y="-547"/>
+            <point key="canvasLocation" x="1101" y="-582"/>
         </scene>
         <!--Contacts View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -84,7 +94,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Y7e-kx-0Dl">
-                                <rect key="frame" x="0.0" y="64" width="414" height="798"/>
+                                <rect key="frame" x="0.0" y="108" width="414" height="754"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="contactCell" rowHeight="100" id="OXy-rN-PLS" customClass="ContactCell" customModule="RUMADContactsApp" customModuleProvider="target">
@@ -124,7 +134,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjE-Cp-79I">
-                                <rect key="frame" x="364" y="34" width="30" height="30"/>
+                                <rect key="frame" x="364" y="78" width="30" height="30"/>
                                 <state key="normal" title="Add"/>
                                 <connections>
                                     <action selector="didTapAddNameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t0n-gZ-87E"/>
@@ -142,12 +152,48 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y7e-kx-0Dl" secondAttribute="trailing" id="g3U-Tx-BSD"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="vPS-0J-0Tg"/>
                     <connections>
                         <outlet property="contactsTableView" destination="Y7e-kx-0Dl" id="5zJ-Gi-PTM"/>
                         <segue destination="HN1-GD-a6I" kind="presentation" identifier="AddNewContactSegue" id="idK-jT-BVu"/>
+                        <segue destination="jgP-NS-LZ4" kind="show" identifier="ContactsToDetail" id="Ez8-50-jN1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1010.144927536232" y="101.78571428571428"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="yQo-fG-2F8">
+            <objects>
+                <viewController id="jgP-NS-LZ4" customClass="DetailViewController" customModule="RUMADContactsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UrZ-2f-zJb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rlS-5c-uU3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Oc1-kb-c87"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xD1-9p-fCp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1973.913043478261" y="101.78571428571428"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="u6Q-aa-LrD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g0l-6P-Xg9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="1y6-dZ-hyx">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dE8-vi-XwZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RO3-aX-NPJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="100.00000000000001" y="101.78571428571428"/>
         </scene>

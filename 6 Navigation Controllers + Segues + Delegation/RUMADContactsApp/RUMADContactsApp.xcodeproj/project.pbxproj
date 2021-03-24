@@ -10,6 +10,7 @@
 		814D183925F8559100C162FF /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D183825F8559100C162FF /* Contact.swift */; };
 		814D183C25F85B8700C162FF /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D183B25F85B8700C162FF /* ContactCell.swift */; };
 		814D183F25F8611300C162FF /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D183E25F8611300C162FF /* AddContactViewController.swift */; };
+		8167FEE6260AC5840065AF2C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167FEE5260AC5840065AF2C /* DetailViewController.swift */; };
 		81798F1A25EF1D1000E89FE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81798F1925EF1D1000E89FE9 /* AppDelegate.swift */; };
 		81798F1C25EF1D1000E89FE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81798F1B25EF1D1000E89FE9 /* SceneDelegate.swift */; };
 		81798F2125EF1D1000E89FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81798F1F25EF1D1000E89FE9 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		814D183825F8559100C162FF /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		814D183B25F85B8700C162FF /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		814D183E25F8611300C162FF /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		8167FEE5260AC5840065AF2C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		81798F1625EF1D1000E89FE9 /* RUMADContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUMADContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81798F1925EF1D1000E89FE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81798F1B25EF1D1000E89FE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				81798F1925EF1D1000E89FE9 /* AppDelegate.swift */,
 				81798F1B25EF1D1000E89FE9 /* SceneDelegate.swift */,
 				81798F1F25EF1D1000E89FE9 /* Main.storyboard */,
+				8167FEE5260AC5840065AF2C /* DetailViewController.swift */,
 				814D183E25F8611300C162FF /* AddContactViewController.swift */,
 				814D183B25F85B8700C162FF /* ContactCell.swift */,
 				81798F2F25EF1E6900E89FE9 /* ContactsViewController.swift */,
@@ -152,6 +155,7 @@
 				814D183F25F8611300C162FF /* AddContactViewController.swift in Sources */,
 				81798F1C25EF1D1000E89FE9 /* SceneDelegate.swift in Sources */,
 				81798F3025EF1E6900E89FE9 /* ContactsViewController.swift in Sources */,
+				8167FEE6260AC5840065AF2C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

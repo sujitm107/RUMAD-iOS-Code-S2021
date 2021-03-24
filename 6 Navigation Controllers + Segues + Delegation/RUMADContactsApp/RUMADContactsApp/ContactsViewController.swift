@@ -25,6 +25,8 @@ class ContactsViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "Contacts"
 
         // Do any additional setup after loading the view.
         contactsTableView.delegate = self
@@ -109,6 +111,10 @@ class ContactsViewController: UIViewController, UITableViewDelegate, UITableView
             let dest = segue.destination as! AddContactViewController
             dest.addContactDelegate = self
         }
+        if(segue.identifier == "ContactsToDetail"){
+            let dest = segue.destination as! DetailViewController
+            dest.contact = sender as! Contact
+        }
     }
     
     
@@ -155,6 +161,13 @@ class ContactsViewController: UIViewController, UITableViewDelegate, UITableView
     func addNewContact(contact: Contact) {
         addToContactsDictionary(insert: contact)
         contactsTableView.reloadData()
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let key  = contactsDictionary.keys.sorted()[indexPath.section]
+        let contact: Contact = contactsDictionary[key]![indexPath.row]
+        
+        performSegue(withIdentifier: "ContactsToDetail", sender: contact)
     }
     
     /*
